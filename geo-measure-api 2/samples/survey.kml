@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Document id="survey">
+      <name>survey</name>
+      <Placemark id="survey.1">
+        <name>Field A (1 ha)</name>
+        <description>100 m x 100 m</description>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                77.5445366024717,12.9230687652883,0
+                77.5445457560004,12.9239721452405,0
+                77.5436247926016,12.9239811227289,0
+                77.5436156423771,12.9230777421282,0
+                77.5445366024717,12.9230687652883,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="survey.2">
+        <name>Boundary road (1 km)</name>
+        <description>straight east-west line</description>
+        <LineString>
+          <coordinates>
+            77.5435973440118,12.9212709807206,0
+            77.5528068475856,12.9211810794503,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="survey.3">
+        <name>Survey marker</name>
+        <description>control point</description>
+        <Point>
+          <coordinates>
+            77.5440806983627,12.9235249442603,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

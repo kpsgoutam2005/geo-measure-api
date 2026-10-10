@@ -1,0 +1,10 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+sqlmodel>=0.0.22
+geopandas>=1.0
+pyogrio>=0.9
+pyproj>=3.6
+shapely>=2.0
+pandas>=2.2
+numpy>=1.26
